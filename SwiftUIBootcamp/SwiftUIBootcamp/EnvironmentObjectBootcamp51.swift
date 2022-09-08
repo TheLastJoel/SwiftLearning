@@ -34,6 +34,7 @@ struct EnvironmentObjectBootcamp51: View {
             }
             .navigationTitle("iOS Devices")
         }
+        .environmentObject(viewModel) //Use Sparingly
 
     }
 }
@@ -63,6 +64,8 @@ struct DetailView: View{
 
 struct FinalView: View{
     
+    @EnvironmentObject var viewModel: EnvironmentViewModel
+    
     var body: some View{
         ZStack{
             //background
@@ -74,9 +77,9 @@ struct FinalView: View{
             
             ScrollView{
                 VStack(spacing: 20){
-                    Text("Item1")
-                    Text("Item2")
-                    Text("Item3")
+                    ForEach(viewModel.dataArray, id: \.self) { item in
+                        Text(item)
+                    }
                 }
                 .foregroundColor(.white)
                 .font(.largeTitle)

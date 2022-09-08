@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SheetBootcamp7: View {
+struct SheetBootcamp28: View {
     
     @State var showSheet: Bool = false
     
@@ -57,8 +57,8 @@ struct SecondScreen:View{
 }
 
 
-struct SheetBootcamp7_Previews: PreviewProvider {
+struct SheetBootcamp28_Previews: PreviewProvider {
     static var previews: some View {
-        SheetBootcamp7()
+        SheetBootcamp28()
     }
 }
