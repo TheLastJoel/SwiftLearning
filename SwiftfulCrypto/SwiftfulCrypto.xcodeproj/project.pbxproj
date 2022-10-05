@@ -7,38 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B56C24C528E4B47F007A6FF8 /* HapticsBootcamp10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56C24C428E4B47F007A6FF8 /* HapticsBootcamp10.swift */; };
-		B5C5280228E467AA00CF77C1 /* MagnificationGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5280128E467AA00CF77C1 /* MagnificationGestureBootcamp2.swift */; };
-		B5C5280428E46BDE00CF77C1 /* DragGestureBootcamp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5280328E46BDE00CF77C1 /* DragGestureBootcamp4.swift */; };
-		B5C5280628E4705B00CF77C1 /* DragGestureBootcamp4B.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5280528E4705B00CF77C1 /* DragGestureBootcamp4B.swift */; };
-		B5C5280828E4937600CF77C1 /* BackgroundThreadBootcamp17.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5280728E4937600CF77C1 /* BackgroundThreadBootcamp17.swift */; };
-		B5EBFC6528E39E1400B7650E /* SwiftUIContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBFC6428E39E1400B7650E /* SwiftUIContinuedLearningApp.swift */; };
-		B5EBFC6728E39E1400B7650E /* EscapingBootcamp20.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EBFC6628E39E1400B7650E /* EscapingBootcamp20.swift */; };
-		B5EBFC6928E39E1500B7650E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EBFC6828E39E1500B7650E /* Assets.xcassets */; };
-		B5EBFC6C28E39E1500B7650E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EBFC6B28E39E1500B7650E /* Preview Assets.xcassets */; };
-		B5EEA9D328ED792B00997B12 /* SoundsBootcamp9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EEA9D228ED792B00997B12 /* SoundsBootcamp9.swift */; };
-		B5EEA9D728ED7B6300997B12 /* Duck-quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5EEA9D528ED7B6300997B12 /* Duck-quack.mp3 */; };
-		B5EEA9D828ED7B6300997B12 /* Badum-tss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5EEA9D628ED7B6300997B12 /* Badum-tss.mp3 */; };
+		B5B33C3D28EDCAE100FFE504 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B33C3C28EDCAE100FFE504 /* SwiftfulCryptoApp.swift */; };
+		B5B33C3F28EDCAE100FFE504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B33C3E28EDCAE100FFE504 /* ContentView.swift */; };
+		B5B33C4428EDCAE200FFE504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B33C4328EDCAE200FFE504 /* Preview Assets.xcassets */; };
+		B5B33C4D28EDCC3E00FFE504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B33C4C28EDCC3E00FFE504 /* Assets.xcassets */; };
+		B5B33C5028EDCE3700FFE504 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B33C4F28EDCE3700FFE504 /* Color.swift */; };
+		B5B33C5628EDD91F00FFE504 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B33C5528EDD91F00FFE504 /* HomeView.swift */; };
+		B5B33C5A28EDD9ED00FFE504 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B33C5928EDD9ED00FFE504 /* CircleButtonView.swift */; };
+		B5B33C5C28EDDC9400FFE504 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B33C5B28EDDC9400FFE504 /* CircleButtonAnimationView.swift */; };
+		B5B33C5F28EDE35D00FFE504 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B33C5E28EDE35D00FFE504 /* Coin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B56C24C428E4B47F007A6FF8 /* HapticsBootcamp10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp10.swift; sourceTree = "<group>"; };
-		B5C5280128E467AA00CF77C1 /* MagnificationGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp2.swift; sourceTree = "<group>"; };
-		B5C5280328E46BDE00CF77C1 /* DragGestureBootcamp4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp4.swift; sourceTree = "<group>"; };
-		B5C5280528E4705B00CF77C1 /* DragGestureBootcamp4B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp4B.swift; sourceTree = "<group>"; };
-		B5C5280728E4937600CF77C1 /* BackgroundThreadBootcamp17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp17.swift; sourceTree = "<group>"; };
-		B5EBFC6128E39E1400B7650E /* SwiftUIContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5EBFC6428E39E1400B7650E /* SwiftUIContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContinuedLearningApp.swift; sourceTree = "<group>"; };
-		B5EBFC6628E39E1400B7650E /* EscapingBootcamp20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp20.swift; sourceTree = "<group>"; };
-		B5EBFC6828E39E1500B7650E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5EBFC6B28E39E1500B7650E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B5EEA9D228ED792B00997B12 /* SoundsBootcamp9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp9.swift; sourceTree = "<group>"; };
-		B5EEA9D528ED7B6300997B12 /* Duck-quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Duck-quack.mp3"; sourceTree = "<group>"; };
-		B5EEA9D628ED7B6300997B12 /* Badum-tss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Badum-tss.mp3"; sourceTree = "<group>"; };
+		B5B33C3928EDCAE100FFE504 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B33C3C28EDCAE100FFE504 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
+		B5B33C3E28EDCAE100FFE504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5B33C4328EDCAE200FFE504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5B33C4C28EDCC3E00FFE504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5B33C4F28EDCE3700FFE504 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B5B33C5528EDD91F00FFE504 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B5B33C5928EDD9ED00FFE504 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		B5B33C5B28EDDC9400FFE504 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		B5B33C5E28EDE35D00FFE504 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5EBFC5E28E39E1400B7650E /* Frameworks */ = {
+		B5B33C3628EDCAE100FFE504 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,93 +42,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5EBFC5828E39E1400B7650E = {
+		B5B33C3028EDCAE100FFE504 = {
 			isa = PBXGroup;
 			children = (
-				B5EBFC6328E39E1400B7650E /* SwiftUIContinuedLearning */,
-				B5EBFC6228E39E1400B7650E /* Products */,
+				B5B33C3B28EDCAE100FFE504 /* SwiftfulCrypto */,
+				B5B33C3A28EDCAE100FFE504 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B5EBFC6228E39E1400B7650E /* Products */ = {
+		B5B33C3A28EDCAE100FFE504 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5EBFC6128E39E1400B7650E /* SwiftUIContinuedLearning.app */,
+				B5B33C3928EDCAE100FFE504 /* Crypto Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5EBFC6328E39E1400B7650E /* SwiftUIContinuedLearning */ = {
+		B5B33C3B28EDCAE100FFE504 /* SwiftfulCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				B5EBFC6428E39E1400B7650E /* SwiftUIContinuedLearningApp.swift */,
-				B5C5280128E467AA00CF77C1 /* MagnificationGestureBootcamp2.swift */,
-				B5C5280328E46BDE00CF77C1 /* DragGestureBootcamp4.swift */,
-				B5C5280528E4705B00CF77C1 /* DragGestureBootcamp4B.swift */,
-				B5EEA9D228ED792B00997B12 /* SoundsBootcamp9.swift */,
-				B56C24C428E4B47F007A6FF8 /* HapticsBootcamp10.swift */,
-				B5C5280728E4937600CF77C1 /* BackgroundThreadBootcamp17.swift */,
-				B5EBFC6628E39E1400B7650E /* EscapingBootcamp20.swift */,
-				B5EEA9D428ED7B4C00997B12 /* Sounds */,
-				B5EBFC6828E39E1500B7650E /* Assets.xcassets */,
-				B5EBFC6A28E39E1500B7650E /* Preview Content */,
+				B5B33C3C28EDCAE100FFE504 /* SwiftfulCryptoApp.swift */,
+				B5B33C3E28EDCAE100FFE504 /* ContentView.swift */,
+				B5B33C4E28EDCE2200FFE504 /* Extensions */,
+				B5B33C5D28EDE33D00FFE504 /* Models */,
+				B5B33C5128EDD8E800FFE504 /* Core */,
+				B5B33C4C28EDCC3E00FFE504 /* Assets.xcassets */,
+				B5B33C4228EDCAE200FFE504 /* Preview Content */,
 			);
-			path = SwiftUIContinuedLearning;
+			path = SwiftfulCrypto;
 			sourceTree = "<group>";
 		};
-		B5EBFC6A28E39E1500B7650E /* Preview Content */ = {
+		B5B33C4228EDCAE200FFE504 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B5EBFC6B28E39E1500B7650E /* Preview Assets.xcassets */,
+				B5B33C4328EDCAE200FFE504 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B5EEA9D428ED7B4C00997B12 /* Sounds */ = {
+		B5B33C4E28EDCE2200FFE504 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B5EEA9D628ED7B6300997B12 /* Badum-tss.mp3 */,
-				B5EEA9D528ED7B6300997B12 /* Duck-quack.mp3 */,
+				B5B33C4F28EDCE3700FFE504 /* Color.swift */,
 			);
-			path = Sounds;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B5B33C5128EDD8E800FFE504 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B5B33C5728EDD9C900FFE504 /* Components */,
+				B5B33C5228EDD8F700FFE504 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B5B33C5228EDD8F700FFE504 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B5B33C5428EDD91000FFE504 /* ViewModels */,
+				B5B33C5328EDD90600FFE504 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B5B33C5328EDD90600FFE504 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5B33C5528EDD91F00FFE504 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5B33C5428EDD91000FFE504 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B5B33C5728EDD9C900FFE504 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B5B33C5828EDD9DE00FFE504 /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B5B33C5828EDD9DE00FFE504 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				B5B33C5928EDD9ED00FFE504 /* CircleButtonView.swift */,
+				B5B33C5B28EDDC9400FFE504 /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		B5B33C5D28EDE33D00FFE504 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5B33C5E28EDE35D00FFE504 /* Coin.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5EBFC6028E39E1400B7650E /* SwiftUIContinuedLearning */ = {
+		B5B33C3828EDCAE100FFE504 /* SwiftfulCrypto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5EBFC6F28E39E1500B7650E /* Build configuration list for PBXNativeTarget "SwiftUIContinuedLearning" */;
+			buildConfigurationList = B5B33C4728EDCAE200FFE504 /* Build configuration list for PBXNativeTarget "SwiftfulCrypto" */;
 			buildPhases = (
-				B5EBFC5D28E39E1400B7650E /* Sources */,
-				B5EBFC5E28E39E1400B7650E /* Frameworks */,
-				B5EBFC5F28E39E1400B7650E /* Resources */,
+				B5B33C3528EDCAE100FFE504 /* Sources */,
+				B5B33C3628EDCAE100FFE504 /* Frameworks */,
+				B5B33C3728EDCAE100FFE504 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftUIContinuedLearning;
-			productName = SwiftUIContinuedLearning;
-			productReference = B5EBFC6128E39E1400B7650E /* SwiftUIContinuedLearning.app */;
+			name = SwiftfulCrypto;
+			productName = SwiftfulCrypto;
+			productReference = B5B33C3928EDCAE100FFE504 /* Crypto Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B5EBFC5928E39E1400B7650E /* Project object */ = {
+		B5B33C3128EDCAE100FFE504 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					B5EBFC6028E39E1400B7650E = {
+					B5B33C3828EDCAE100FFE504 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = B5EBFC5C28E39E1400B7650E /* Build configuration list for PBXProject "SwiftUIContinuedLearning" */;
+			buildConfigurationList = B5B33C3428EDCAE100FFE504 /* Build configuration list for PBXProject "SwiftfulCrypto" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,50 +189,47 @@
 				en,
 				Base,
 			);
-			mainGroup = B5EBFC5828E39E1400B7650E;
-			productRefGroup = B5EBFC6228E39E1400B7650E /* Products */;
+			mainGroup = B5B33C3028EDCAE100FFE504;
+			productRefGroup = B5B33C3A28EDCAE100FFE504 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5EBFC6028E39E1400B7650E /* SwiftUIContinuedLearning */,
+				B5B33C3828EDCAE100FFE504 /* SwiftfulCrypto */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5EBFC5F28E39E1400B7650E /* Resources */ = {
+		B5B33C3728EDCAE100FFE504 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5EEA9D728ED7B6300997B12 /* Duck-quack.mp3 in Resources */,
-				B5EBFC6C28E39E1500B7650E /* Preview Assets.xcassets in Resources */,
-				B5EBFC6928E39E1500B7650E /* Assets.xcassets in Resources */,
-				B5EEA9D828ED7B6300997B12 /* Badum-tss.mp3 in Resources */,
+				B5B33C4D28EDCC3E00FFE504 /* Assets.xcassets in Resources */,
+				B5B33C4428EDCAE200FFE504 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5EBFC5D28E39E1400B7650E /* Sources */ = {
+		B5B33C3528EDCAE100FFE504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5EBFC6728E39E1400B7650E /* EscapingBootcamp20.swift in Sources */,
-				B56C24C528E4B47F007A6FF8 /* HapticsBootcamp10.swift in Sources */,
-				B5EEA9D328ED792B00997B12 /* SoundsBootcamp9.swift in Sources */,
-				B5C5280228E467AA00CF77C1 /* MagnificationGestureBootcamp2.swift in Sources */,
-				B5C5280428E46BDE00CF77C1 /* DragGestureBootcamp4.swift in Sources */,
-				B5EBFC6528E39E1400B7650E /* SwiftUIContinuedLearningApp.swift in Sources */,
-				B5C5280828E4937600CF77C1 /* BackgroundThreadBootcamp17.swift in Sources */,
-				B5C5280628E4705B00CF77C1 /* DragGestureBootcamp4B.swift in Sources */,
+				B5B33C3F28EDCAE100FFE504 /* ContentView.swift in Sources */,
+				B5B33C5628EDD91F00FFE504 /* HomeView.swift in Sources */,
+				B5B33C3D28EDCAE100FFE504 /* SwiftfulCryptoApp.swift in Sources */,
+				B5B33C5A28EDD9ED00FFE504 /* CircleButtonView.swift in Sources */,
+				B5B33C5028EDCE3700FFE504 /* Color.swift in Sources */,
+				B5B33C5C28EDDC9400FFE504 /* CircleButtonAnimationView.swift in Sources */,
+				B5B33C5F28EDE35D00FFE504 /* Coin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B5EBFC6D28E39E1500B7650E /* Debug */ = {
+		B5B33C4528EDCAE200FFE504 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		B5EBFC6E28E39E1500B7650E /* Release */ = {
+		B5B33C4628EDCAE200FFE504 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,20 +343,21 @@
 			};
 			name = Release;
 		};
-		B5EBFC7028E39E1500B7650E /* Debug */ = {
+		B5B33C4828EDCAE200FFE504 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIContinuedLearning/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulCrypto/Preview Content\"";
 				DEVELOPMENT_TEAM = 5MV7V54AJ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,28 +365,29 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = NeedToKnow.SwiftUIContinuedLearning;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = NeedToKnow.SwiftfulCrypto;
+				PRODUCT_NAME = "Crypto Tracker";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B5EBFC7128E39E1500B7650E /* Release */ = {
+		B5B33C4928EDCAE200FFE504 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIContinuedLearning/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulCrypto/Preview Content\"";
 				DEVELOPMENT_TEAM = 5MV7V54AJ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,8 +395,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = NeedToKnow.SwiftUIContinuedLearning;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = NeedToKnow.SwiftfulCrypto;
+				PRODUCT_NAME = "Crypto Tracker";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,25 +406,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5EBFC5C28E39E1400B7650E /* Build configuration list for PBXProject "SwiftUIContinuedLearning" */ = {
+		B5B33C3428EDCAE100FFE504 /* Build configuration list for PBXProject "SwiftfulCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5EBFC6D28E39E1500B7650E /* Debug */,
-				B5EBFC6E28E39E1500B7650E /* Release */,
+				B5B33C4528EDCAE200FFE504 /* Debug */,
+				B5B33C4628EDCAE200FFE504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5EBFC6F28E39E1500B7650E /* Build configuration list for PBXNativeTarget "SwiftUIContinuedLearning" */ = {
+		B5B33C4728EDCAE200FFE504 /* Build configuration list for PBXNativeTarget "SwiftfulCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5EBFC7028E39E1500B7650E /* Debug */,
-				B5EBFC7128E39E1500B7650E /* Release */,
+				B5B33C4828EDCAE200FFE504 /* Debug */,
+				B5B33C4928EDCAE200FFE504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B5EBFC5928E39E1400B7650E /* Project object */;
+	rootObject = B5B33C3128EDCAE100FFE504 /* Project object */;
 }
