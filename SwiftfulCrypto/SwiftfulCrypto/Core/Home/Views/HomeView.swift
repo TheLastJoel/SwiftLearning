@@ -9,7 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     
-    // Always try to make as private as possible
+    @EnvironmentObject private var vm: HomeViewModel
+    // Always try to make variables private as much as possible
     @State private var showPortfolio: Bool = false
     
     var body: some View {
@@ -21,6 +22,25 @@ struct HomeView: View {
             // Content Layer
             VStack{
                 homeHeader
+                
+                HomeStatsView(showPortfolio: $showPortfolio)
+                
+                SearchBarView(searchText: $vm.searchText)
+                    .padding()
+                
+                columnTitles
+
+                
+                if !showPortfolio{
+                    allCoinsList
+                        .transition(.move(edge: .leading))
+                }
+                if showPortfolio{
+                    portfolioCoinsList
+                        .transition(.move(edge: .trailing))
+                }
+
+                
                 Spacer(minLength: 0)
             }
             
@@ -35,10 +55,12 @@ struct HomeView_Previews: PreviewProvider {
             HomeView()
                 .navigationBarHidden(true)
         }
+        .environmentObject(dev.homeVM)
     }
 }
 
-//Extension keeps this neat as homeHeader is private and cannot be accessed from other views
+// Extension keeps this neat as subviews are private and cannot be accessed from other views.
+// The main view should be clean and simple and down here is the details.
 extension HomeView{
     
     private var homeHeader: some View{
@@ -53,6 +75,7 @@ extension HomeView{
                 .font(.headline)
                 .fontWeight(.heavy)
                 .foregroundColor(.theme.accent)
+                .autocorrectionDisabled(true)
                 .animation(.none)
             Spacer()
             CircleButtonView(iconName: "chevron.right")
@@ -65,4 +88,42 @@ extension HomeView{
         }
         .padding(.horizontal)
     }
+    
+    private var allCoinsList: some View{
+        List{
+            // Even though getting the coins is asynchronous, they are stored in a published var so we do not need to be inside a task here
+            ForEach(vm.allCoins) { coin in
+                CoinRowView(coin: coin, showHoldingsColumn: false)
+                    .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
+            }
+        }
+        .listStyle(PlainListStyle())
+    }
+    
+    private var portfolioCoinsList: some View{
+        List{
+            // Even though getting the coins is asynchronous, they are stored in a published var so we do not need to be inside a task here
+            ForEach(vm.portfolioCoins) { coin in
+                CoinRowView(coin: coin, showHoldingsColumn: true)
+                    .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
+            }
+        }
+        .listStyle(PlainListStyle())
+    }
+    
+    private var columnTitles: some View{
+        HStack{
+            Text("Coin")
+            Spacer()
+            if showPortfolio{
+                Text("Holdings")
+            }
+            Text("Price")
+                .frame(width: UIScreen.main.bounds.width / 3, alignment: .trailing)
+        }
+        .font(.caption)
+        .foregroundColor(.theme.secondaryText)
+        .padding()
+    }
+
 }
