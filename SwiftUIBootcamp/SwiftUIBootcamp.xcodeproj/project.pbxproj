@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DED7BA4294D0390007570C6 /* AlertBootcamp32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED7BA3294D0390007570C6 /* AlertBootcamp32.swift */; };
 		B516215728BE06D40093A5BD /* SheetBootcamp28.swift in Sources */ = {isa = PBXBuildFile; fileRef = B516215628BE06D40093A5BD /* SheetBootcamp28.swift */; };
 		B51B870828C8F24B008D7B64 /* PaddingAndSpacerBootcamp11.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B870728C8F24B008D7B64 /* PaddingAndSpacerBootcamp11.swift */; };
 		B51B870A28C8F755008D7B64 /* AnimationBootcamp25.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51B870928C8F755008D7B64 /* AnimationBootcamp25.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DED7BA3294D0390007570C6 /* AlertBootcamp32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp32.swift; sourceTree = "<group>"; };
 		B516215628BE06D40093A5BD /* SheetBootcamp28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBootcamp28.swift; sourceTree = "<group>"; };
 		B51B870728C8F24B008D7B64 /* PaddingAndSpacerBootcamp11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerBootcamp11.swift; sourceTree = "<group>"; };
 		B51B870928C8F755008D7B64 /* AnimationBootcamp25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootcamp25.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				B516215628BE06D40093A5BD /* SheetBootcamp28.swift */,
 				B5F6539228C9FC6900FB69F5 /* viewModelBootcamp50.swift */,
 				B58B239328B945E60093D7AD /* EnvironmentObjectBootcamp51.swift */,
+				5DED7BA3294D0390007570C6 /* AlertBootcamp32.swift */,
 				B5F6538928C9EDBC00FB69F5 /* OnBoardingViewsBootcamp53 */,
 				B5F6539028C9F79900FB69F5 /* BackgroundMaterialsBootcamp55.swift */,
 				B58B238928B945B60093D7AD /* Assets.xcassets */,
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DED7BA4294D0390007570C6 /* AlertBootcamp32.swift in Sources */,
 				B516215728BE06D40093A5BD /* SheetBootcamp28.swift in Sources */,
 				B5F6539128C9F79900FB69F5 /* BackgroundMaterialsBootcamp55.swift in Sources */,
 				B5953DFD28E6D2F700D00F3F /* TransitionBootcamp27.swift in Sources */,
