@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D75AC502951CE5100649F9C /* CoreDataRelationshipsBootcamp16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D75AC4F2951CE5100649F9C /* CoreDataRelationshipsBootcamp16.swift */; };
+		5D75AC532951CF8300649F9C /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D75AC512951CF8300649F9C /* CoreDataContainer.xcdatamodeld */; };
+		5D82D1882953224E00D209EC /* FileManagerBootcamp26.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D82D1872953224E00D209EC /* FileManagerBootcamp26.swift */; };
+		5DC5F8DF2950CAAD00C718F9 /* CoreDataBootcamp15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5F8DE2950CAAD00C718F9 /* CoreDataBootcamp15.swift */; };
+		5DC5F8E22950CBA500C718F9 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5F8E02950CBA500C718F9 /* FruitsContainer.xcdatamodeld */; };
 		B53726082900283900DFA229 /* SubscriberBootcamp25.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53726072900283900DFA229 /* SubscriberBootcamp25.swift */; };
 		B56C24C528E4B47F007A6FF8 /* HapticsBootcamp10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56C24C428E4B47F007A6FF8 /* HapticsBootcamp10.swift */; };
 		B5C0D44D28F02DC60056A413 /* TimerBootcamp24.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0D44C28F02DC60056A413 /* TimerBootcamp24.swift */; };
@@ -24,6 +29,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D75AC4F2951CE5100649F9C /* CoreDataRelationshipsBootcamp16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsBootcamp16.swift; sourceTree = "<group>"; };
+		5D75AC522951CF8300649F9C /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		5D82D1872953224E00D209EC /* FileManagerBootcamp26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp26.swift; sourceTree = "<group>"; };
+		5DC5F8DE2950CAAD00C718F9 /* CoreDataBootcamp15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp15.swift; sourceTree = "<group>"; };
+		5DC5F8E12950CBA500C718F9 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		B53726072900283900DFA229 /* SubscriberBootcamp25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp25.swift; sourceTree = "<group>"; };
 		B56C24C428E4B47F007A6FF8 /* HapticsBootcamp10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp10.swift; sourceTree = "<group>"; };
 		B5C0D44C28F02DC60056A413 /* TimerBootcamp24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp24.swift; sourceTree = "<group>"; };
@@ -77,10 +87,15 @@
 				B5C5280528E4705B00CF77C1 /* DragGestureBootcamp4B.swift */,
 				B5EEA9D228ED792B00997B12 /* SoundsBootcamp9.swift */,
 				B56C24C428E4B47F007A6FF8 /* HapticsBootcamp10.swift */,
+				5DC5F8DE2950CAAD00C718F9 /* CoreDataBootcamp15.swift */,
+				5DC5F8E02950CBA500C718F9 /* FruitsContainer.xcdatamodeld */,
+				5D75AC4F2951CE5100649F9C /* CoreDataRelationshipsBootcamp16.swift */,
+				5D75AC512951CF8300649F9C /* CoreDataContainer.xcdatamodeld */,
 				B5C5280728E4937600CF77C1 /* BackgroundThreadBootcamp17.swift */,
 				B5EBFC6628E39E1400B7650E /* EscapingBootcamp20.swift */,
 				B5C0D44C28F02DC60056A413 /* TimerBootcamp24.swift */,
 				B53726072900283900DFA229 /* SubscriberBootcamp25.swift */,
+				5D82D1872953224E00D209EC /* FileManagerBootcamp26.swift */,
 				B5EEA9D428ED7B4C00997B12 /* Sounds */,
 				B5EBFC6828E39E1500B7650E /* Assets.xcassets */,
 				B5EBFC6A28E39E1500B7650E /* Preview Content */,
@@ -177,16 +192,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D82D1882953224E00D209EC /* FileManagerBootcamp26.swift in Sources */,
+				5DC5F8E22950CBA500C718F9 /* FruitsContainer.xcdatamodeld in Sources */,
 				B5EBFC6728E39E1400B7650E /* EscapingBootcamp20.swift in Sources */,
 				B53726082900283900DFA229 /* SubscriberBootcamp25.swift in Sources */,
 				B56C24C528E4B47F007A6FF8 /* HapticsBootcamp10.swift in Sources */,
 				B5EEA9D328ED792B00997B12 /* SoundsBootcamp9.swift in Sources */,
 				B5C5280228E467AA00CF77C1 /* MagnificationGestureBootcamp2.swift in Sources */,
+				5D75AC502951CE5100649F9C /* CoreDataRelationshipsBootcamp16.swift in Sources */,
 				B5C5280428E46BDE00CF77C1 /* DragGestureBootcamp4.swift in Sources */,
 				B5EBFC6528E39E1400B7650E /* SwiftUIContinuedLearningApp.swift in Sources */,
 				B5C5280828E4937600CF77C1 /* BackgroundThreadBootcamp17.swift in Sources */,
+				5D75AC532951CF8300649F9C /* CoreDataContainer.xcdatamodeld in Sources */,
 				B5C5280628E4705B00CF77C1 /* DragGestureBootcamp4B.swift in Sources */,
 				B5C0D44D28F02DC60056A413 /* TimerBootcamp24.swift in Sources */,
+				5DC5F8DF2950CAAD00C718F9 /* CoreDataBootcamp15.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +407,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D75AC512951CF8300649F9C /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D75AC522951CF8300649F9C /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 5D75AC522951CF8300649F9C /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		5DC5F8E02950CBA500C718F9 /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DC5F8E12950CBA500C718F9 /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 5DC5F8E12950CBA500C718F9 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B5EBFC5928E39E1400B7650E /* Project object */;
 }
